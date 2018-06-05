@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="https://www.ricksanto.ca/favicon1.png">
+  <link rel="shortcut icon" href="/favicon1.ico">
+
   <title>ricksanto.ca</title>
   <style>
     :root {
@@ -26,7 +27,18 @@
       background: linear-gradient(135deg, var(--sec-lt-color,#f4d34a), var(--sec-dk-color,#c5a479));
     }
     svg {
-      width: 25%;
+      width: 90%;
+      filter: drop-shadow(5px 5px 10px #752c2c);
+    }
+    @media only screen and (min-width:768px){
+      svg {
+        width: 50%;
+      }
+    }
+    @media only screen and (min-width:1200px){
+      svg {
+        width: 25%;
+      }
     }
   </style>
 </head>
