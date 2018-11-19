@@ -32,6 +32,7 @@
       body {
         min-height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         background-color: var(--main-lt-color, #f4d34a);
@@ -40,6 +41,8 @@
           var(--sec-lt-color, #bed5fa),
           var(--sec-dk-color, #0b2559)
         );
+        color: var(--sec-dk-color, #0b2559);
+        font-family: Arial, Helvetica, sans-serif;
       }
       svg {
         width: 90%;
@@ -55,6 +58,10 @@
           width: 25%;
         }
       }
+      #domainname {
+        margin-top: 2em;
+      }
+      em{font-size:140%;}
     </style>
   </head>
   <body>
@@ -100,5 +107,6 @@
         fill="red"
       />
     </svg>
+    <div id="domainname">future home of <em>ricksanto.ca<em></em></div>
   </body>
 </html>
