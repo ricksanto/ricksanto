@@ -1,4 +1,4 @@
-![Logo of the project](https://www.ricksanto.ca/images/logo.svg)
+![Logo of the project](https://www.ricksanto.ca/img/logo.svg)
 
 # ricksanto.ca
 
