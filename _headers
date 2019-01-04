@@ -1,6 +1,6 @@
 # All paths
 /*
     # Block site from being framed with X-Frame-Options and CSP
-    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; report-uri https://<report-uri-subdomain>.report-uri.io/r/default/csp/enforce;
+    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'unsafe-inline' https://ssl.gstatic.com/; script-src 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com/; style-src 'unsafe-inline' https://fonts.googleapis.com/; font-src 'self'; report-uri https://<report-uri-subdomain>.report-uri.io/r/default/csp/enforce;
     X-Frame-Options: DENY
 	X-Content-Type-Options: nosniff
