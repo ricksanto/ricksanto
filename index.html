@@ -6,64 +6,14 @@
       async
       src="//www.googletagmanager.com/gtag/js?id=UA-78763424-3"
     ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-78763424-3");
-    </script>
+    <script src="gtag.js"></script>
     <meta name="Description" content="ricksanto.ca showcases the portfolio of rick santo, freelance web developer, based in the Greater Toronto Area">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <title>ricksanto.ca</title>
-    <style>
-      :root {
-        --main-lt-color: #f4d34a;
-        --main-dk-color: #dd0a0a;
-        --sec-lt-color: #bed5fa;
-        --sec-dk-color: #0b2559;
-      }
-      html {
-        height: 100%;
-      }
-      body {
-        min-height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--main-lt-color, #f4d34a);
-        background: linear-gradient(
-          135deg,
-          var(--sec-lt-color, #bed5fa),
-          var(--sec-dk-color, #0b2559)
-        );
-        color: var(--sec-dk-color, #0b2559);
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      svg {
-        width: 90%;
-        filter: drop-shadow(3px 3px 10px var(--sec-dk-color, #0b2559));
-      }
-      @media only screen and (min-width: 768px) {
-        svg {
-          width: 50%;
-        }
-      }
-      @media only screen and (min-width: 1200px) {
-        svg {
-          width: 25%;
-        }
-      }
-      #domainname {
-        margin-top: 2em;
-      }
-      em{font-size:140%;}
-    </style>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <svg xmlns="https://www.w3.org/2000/svg" data-name="logo" viewBox="0 0 856 509">
