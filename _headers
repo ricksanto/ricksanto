@@ -1,6 +1,6 @@
 # All paths
 /*
     # Block site from being framed with X-Frame-Options and CSP
-    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self' https://ssl.gstatic.com/; script-src 'self' https://www.googletagmanager.com/ https://www.google-analytics.com/; style-src 'self' https://fonts.googleapis.com/; font-src 'self';
+    Content-Security-Policy: default-src 'none'; object-src 'none'; img-src 'self' https://www.google-analytics.com/; script-src 'self' https://www.googletagmanager.com/ https://www.google-analytics.com/; style-src 'self' https://fonts.googleapis.com/; font-src 'self';
     X-Frame-Options: DENY
 	X-Content-Type-Options: nosniff
